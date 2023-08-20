@@ -1,0 +1,432 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <!-- Basic -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">   
+   
+    <!-- Mobile Metas -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+ 
+     <!-- Site Metas -->
+    <title>all Department Syllabus</title>  
+    
+
+    <!-- Site Icons -->
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon" />
+    <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- Site CSS -->
+    <link rel="stylesheet" href="style.css">
+    <!-- ALL VERSION CSS -->
+    <link rel="stylesheet" href="css/versions.css">
+    <!-- Responsive CSS -->
+    <link rel="stylesheet" href="css/responsive.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/custom.css">
+
+    <!-- Modernizer for Portfolio -->
+    <script src="js/modernizer.js"></script>
+
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+<body class="host_version"> 
+
+	<!-- Modal -->
+	<div class="modal fade" id="login" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+	  <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+		<div class="modal-content">
+			<div class="modal-header tit-up">
+				<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+				<h4 class="modal-title">Customer Login</h4>
+			</div>
+			<div class="modal-body customer-box">
+				<!-- Nav tabs -->
+				
+				<!-- Tab panes -->
+				<div class="tab-content">
+					<div class="tab-pane active" id="Login">
+						<form role="form" class="form-horizontal">
+							<div class="form-group">
+								<div class="col-sm-12">
+									<input class="form-control" id="email1" placeholder="Name" type="text">
+								</div>
+							</div>
+							<div class="form-group">
+								<div class="col-sm-12">
+									<input class="form-control" id="exampleInputPassword1" placeholder="Email" type="email">
+								</div>
+							</div>
+							<div class="row">
+								<div class="col-sm-10">
+									<button type="submit" class="btn btn-light btn-radius btn-brd grd1">
+										Submit
+									</button>
+									<a class="for-pwd" href="javascript:;"></a>
+								</div>
+							</div>
+						</form>
+					</div>
+					<div class="tab-pane" id="Registration">
+						<form role="form" class="form-horizontal">
+							<div class="form-group">
+								<div class="col-sm-12">
+									<input class="form-control" placeholder="Name" type="text">
+								</div>
+							</div>
+							<div class="form-group">
+								<div class="col-sm-12">
+									<input class="form-control" id="email" placeholder="Email" type="email">
+								</div>
+							</div>
+							<div class="form-group">
+								<div class="col-sm-12">
+									<input class="form-control" id="mobile" placeholder="Mobile" type="email">
+								</div>
+							</div>
+							<div class="form-group">
+								<div class="col-sm-12">
+									<input class="form-control" id="password" placeholder="Password" type="password">
+								</div>
+							</div>
+							<div class="row">							
+								<div class="col-sm-10">
+									<button type="button" class="btn btn-light btn-radius btn-brd grd1">
+										Save &amp; Continue
+									</button>
+									<button type="button" class="btn btn-light btn-radius btn-brd grd1">
+										Cancel</button>
+								</div>
+							</div>
+						</form>
+					</div>
+				</div>
+			</div>
+		</div>
+	  </div>
+	</div>
+
+    <!-- LOADER -->
+	<div id="preloader">
+		<div class="loader-container">
+			<div class="progress-br float shadow">
+				<div class="progress__item"></div>
+			</div>
+		</div>
+	</div>
+	<!-- END LOADER -->	
+	
+	<!-- Start header -->
+	<header class="top-navbar">
+		<nav class="navbar navbar-expand-lg navbar-light bg-light">
+			<div class="container-fluid">
+				<a class="navbar-brand" href="index.html">
+					
+				</a>
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbars-host" aria-controls="navbars-rs-food" aria-expanded="false" aria-label="Toggle navigation">
+					<span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+				</button>
+				<div class="collapse navbar-collapse" id="navbars-host">
+					<ul class="navbar-nav ml-auto">
+						<li class="nav-item active"><a class="nav-link" href="index.html">Home</a></li>
+						
+						
+						
+						
+						<li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+					</ul>
+					<ul class="nav navbar-nav navbar-right">
+                        <li><a class="hover-btn-new log orange" href="#" data-toggle="modal" data-target="#login"><span>Book Now</span></a></li>
+                    </ul>
+				</div>
+			</div>
+		</nav>
+	</header>
+	
+	<!-- End header -->
+	
+	<div id="carouselExampleControls" class="carousel slide bs-slider box-slider" data-ride="carousel" data-pause="hover" data-interval="false" >
+		<!-- Indicators -->
+		<ol class="carousel-indicators">
+			<li data-target="#carouselExampleControls" data-slide-to="0" class="active"></li>
+			<li data-target="#carouselExampleControls" data-slide-to="1"></li>
+			<li data-target="#carouselExampleControls" data-slide-to="2"></li>
+		</ol>
+		<div class="carousel-inner" role="listbox">
+			<div class="carousel-item active">
+				<div id="home" class="first-section" style="background-image:url('images/slider-01.jpg');">
+					<div class="dtab">
+						<div class="container">
+							<div class="row">
+								<div class="col-md-12 col-sm-12 text-right">
+									<div class="big-tagline">
+										<h2><strong>ALL DEPARTMENT </strong> SYLLABUS INFO</h2>
+										<p class="lead">Discover the All Department's Syllabus, video, link, Book & Notes Hub! 📚🔗 Unleash your potential with a curated collection covering various Department domains. From circuits to code, explore, learn, and innovate with us.<h2><u>Welcome to your journey</u> </h2></p>
+									
+											<a href="https://www.sgbau.ac.in/" class="hover-btn-new"><span>sgbau</span></a>
+											&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+											<a href="https://sgbau.ac.in/phdcell/pdf/RESLIST.pdf" class="hover-btn-new"><span>college info</span></a>
+											&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+											<a href="https://u4465288.ct.sendgrid.net/ls/click?upn=kSpqpeCkkusBvEluz0jn1RvumnTWdnzanveOlUJ48tbMb8ZYHyC12Ei4s2r1EXP3w35y3U-2FUutBu85h6wUuJ3KJGA2aPIY0smttsOsDA3Wr0c3ayVrQG4LPWC7A-2F3inE6qDR61OOmNipr-2BVzT87o2GuoKXvCAvguyvO88S9S66Tsh4eh9cdzrFWsp8cLOvnlCrsQVN5vV2pe8FFm6jt0862NPljnZuhoN-2Bp-2BUpqI0i8-3DwbUg_qu8vf-2FRY6E4sf6aDuiuHKRFG9ss6cxneIOtaO5aBbp44yfoMzEmvnlSDNg0fR5j0YFjqt2FzR7u1JVBSGDaHj867-2BxEg-2FgmheWfpAkXQeVa-2BhsGC1drOKg7O3POJ20fubg8LL94dlVmTimtN7k1K-2Bf27piDOHUvidRf7TQgTIaqSYTobaE1a-2Bc06I6D5BRhPrQllNJJN2qQT4k5SjC4P8td6kkJEbAbWjvgYH7E0zhkOAbaInpopIUACDltBP1-2FoEsSGApsuym732CVD356mdf2pK2wbK-2FxZa2fT20YIGpih1savZ-2FYaxfdMeyktmAHIHMrZoUQnA8bT7dbpX-2BiJtLkL84VRzwcMBEx8E8ByWNb5xLUTa83GfZuQXprAd85nqvhU9jfAj7SjhShFL7Uexw-3D-3D" class="hover-btn-new"><span>ALL BOOKS</span></a>
+											&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+											<a href="https://www.a2zsubjects.com/papers/sgbau/" class="hover-btn-new"><span>NOTES</span></a>
+											&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+											<a href="https://www.tutorialsduniya.com/about/#google_vignette" class="hover-btn-new"><span>Tutorials Duniya</span></a>
+											&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+											
+									</div>
+								</div>
+							</div><!-- end row -->            
+						</div><!-- end container -->
+					</div>
+				</div><!-- end section -->
+			</div>
+			<div class="carousel-item">
+				<div id="home" class="first-section" style="background-image:url('coding.jpg.png');">
+					<div class="dtab">
+						<div class="container">
+							<div class="row">
+								<div class="col-md-12 col-sm-12 text-left">
+									<div class="big-tagline">
+										<h2 data-animation="animated zoomInRight"> <strong>Education (CODING)</strong></h2>
+										<p class="lead" data-animation="animated fadeInLeft"> </p>
+											<a href="https://chat.whatsapp.com/JcfU5upZFXYD0vHTSzWD3V" class="hover-btn-new"><span>whatsapp group</span></a>
+											&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+											<a href="#" class="hover-btn-new"><span>7499088976</span></a>
+									</div>
+								</div>
+							</div><!-- end row -->            
+						</div><!-- end container -->
+					</div>
+				</div><!-- end section -->
+			</div>
+			
+					</div>
+				</div><!-- end section -->
+			</div>
+			<!-- Left Control -->
+			<a class="new-effect carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+				<span class="fa fa-angle-left" aria-hidden="true"></span>
+				<span class="sr-only">Previous</span>
+			</a>
+
+			<!-- Right Control -->
+			<a class="new-effect carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+				<span class="fa fa-angle-right" aria-hidden="true"></span>
+				<span class="sr-only">Next</span>
+			</a>
+		</div>
+	</div>
+	
+    <div id="overviews" class="section wb">
+        <div class="container">
+            <div class="section-title row text-center">
+                <div class="col-md-8 offset-md-2">
+                    <h3>Sant gadge baba amravati university</h3>
+                    <p class="lead">Sant Gadge Baba Amravati University, formerly Amravati University, named after Sant Gadge Baba, is a public state university located at Amravati in the Vidarbha region of the state of Maharashtra, India. Today, it is one of the largest universities in the country with 382 affiliated colleges and about 3.5 lakh students.</p>
+                </div>
+            </div><!-- end title -->
+        
+            <table class="table-fill">
+                <thead>
+                    <tr>
+                        <th class="text-left">
+                            <h1 style="font-size: 70px;">Department </h1>
+                        </th>
+
+
+                    </tr> 
+                </thead>
+                <tbody class="table-hover">
+                    <tr>
+                        <td class="text-center">
+                            <li style="text-align: left;"><a href="c1.html" onclick="showSubjects('Engineering')">Engineering</a></li>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="text-center">
+                            <li  style="text-align: left;"><a href="c2.html" onclick="showSubjects('Pharmacy')"> Pharmacy</a></li>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="text-left ">
+                            <li><a href="c3.html" onclick="showSubjects('Agriculture')"> Agriculture</a></li>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="text-left">
+                            <li><a href="c4.html" onclick="showSubjects('MBA')">MBA</a></li>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="text-left">
+                            <li><a href="c5.html" onclick="showSubjects('MCA')">MCA</a></li>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="text-left">
+                            <li><a href="c6.html" onclick="showSubjects('Architecture')">Architecture</a></li>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="text-left">
+                            <li><a href="c7.html" onclick="showSubjects('BSC')">BSC</a></li>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="text-left">
+                            <li><a href="c8.html" onclick="showSubjects('Medical Sciences')">BCA</a></li>
+                        </td>
+                    </tr>
+                   
+                    <tr>
+                        <td class="text-left">
+                            <li><a href="cc.html" onclick="showSubjects('Collage')">Collage</a></li>
+                        </td>
+                    </tr>
+
+
+
+                </tbody>
+            </table><!-- end col -->
+
+			</div>
+			   
+				
+				<div class="col-xl-6 col-lg-6 col-md-12 col-sm-12">
+                    <div class="message-box">
+                        <h2><u>CODE WITH CURIOUS</u></h2>
+                        <p> CodeWithCurious is a Best Place to Learn & grow your Career in IT sector. Best Content on the latest technology in including C, C++, Java, Python, Sql, Web development & Interview Preparation Material free of cost.</p>
+                        
+
+                        <a href="https://codewithcurious.com/" class="hover-btn-new orange"><span>Learn More</span></a>
+                    </div><!-- end messagebox -->
+                </div><!-- end col -->
+				
+            </div><!-- end row -->
+        </div><!-- end container -->
+    </div><!-- end section -->
+
+    
+                            <!-- end testi-meta -->
+                        </div>
+                        <!-- end testimonial -->
+
+                        <div class="testimonial clearfix">
+							<div class="testi-meta">
+                                <img src="images/dnyanesh.jpg" alt="" class="img-fluid">
+                                <h3>Dnyanesh sontakke</h3>
+                            </div>
+                            <div class="desc">
+                                <h3><i class="fa fa-quote-left"></i>WEB DEVELOPER</h3>
+                                <p class="lead">Passionate web developre with expertise in front-end and back-end technologies Committed to crafting immersive web experiences that blend creativity with functionality</p>
+                            </div>
+                            <!-- end testi-meta -->
+                        </div><!-- end testimonial -->
+                    </div><!-- end carousel -->
+                </div><!-- end col -->
+            </div><!-- end row -->
+        </div><!-- end container -->
+    </div><!-- end section -->
+
+   
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 col-md-4 col-xs-12">
+                    <div class="widget clearfix">
+                        <div class="widget-title">
+                            <h3>About US</h3>
+							<p>Hi, I'm Dnyanesh Sontakke, a web developer and computer science student. I'm passionate about crafting user-friendly websites that merge creativity with functionality. Currently studying computer science, I love coding and design, creating seamless digital experiences. Let's connect and explore the digital realm together!</p>
+                        </div>
+                        
+						<div class="footer-right">
+							<ul class="footer-links-soi">
+								<li><a href="#"><i class="fa fa-facebook"></i></a></li>
+								<li><a href="https://github.com/Dnyanu-2005"><i class="fa fa-github"></i></a></li>
+								<li><a href="https://youtube.com/@dnyaneshsontakke1548"><i class="fa fa-youtube"></i></a></li>
+								<li><a href="https://www.linkedin.com/in/dnyanesh-sontakke-a829a9280"><i class="fa fa-linkedin"></i></a></li>
+								<li><a href="https://wa.me/qr/LC73LVUXL623J1 "><i class="fa fa-whatsapp"></i></a></li>
+								<li><a href="https://instagram.com/dnyanesh8702?utm_source=qr&igshid=MzNlNGNkZWQ4Mg%3D%3D"><i class="fa fa-instagram"></i></a></li>
+							</ul><!-- end links -->
+						</div>						
+                    </div><!-- end clearfix -->
+                </div><!-- end col -->
+
+				<div class="col-lg-4 col-md-4 col-xs-12">
+                    <div class="widget clearfix">
+                        <div class="widget-title">
+                            <h3>Information Link</h3>
+                        </div>
+                        
+                            <li>Top Colleges</li>
+                           
+							<li>TOP UNIVERSITIES</li>
+							<li>TOP EXAM</li>
+							<li>STUDY ABROAD</li>
+							<li>Department</li>
+							<li>IMP</li>
+							<li>PDF</li>
+							<li>NOTES</li>
+							<li>LINK</li>
+                        </ul><!-- end links -->
+                    </div><!-- end clearfix -->
+                </div><!-- end col -->
+				
+                <div class="col-lg-4 col-md-4 col-xs-12">
+                    <div class="widget clearfix">
+                        <div class="widget-title">
+                            <h3><u>Contact Details</u></h3>
+                        </div>
+
+                        <ul class="footer-links">
+                            <li>Dnyanesh sontakke</li>
+							<li>dnyaneshsontakke6@gmail.com</li>
+                            <li>P.R.POTE (patil)</li>
+                            <li>B.E. (COMPUTER Sciences Engineering) </li>
+                            <li>At.post :-At. Post YEODA tq. Daryapur Dist. Amravati </li>
+                            <li>8999294208</li>
+                            <p>Web Developer, Good Communication, Data Entry, Resume Building</p>
+                        </ul><!-- end links -->
+                    </div><!-- end clearfix -->
+                </div><!-- end col -->
+				
+            </div><!-- end row -->
+        </div><!-- end container -->
+    </footer><!-- end footer -->
+
+    <div class="copyrights">
+        <div class="container">
+            <div class="footer-distributed">
+                <div class="footer-center">                   
+                    <p class="footer-company-name">Learn More</p>
+                </div>
+            </div>
+        </div><!-- end container -->
+    </div><!-- end copyrights -->
+
+    
+
+    <!-- ALL JS FILES -->
+    <script src="js/all.js"></script>
+    <!-- ALL PLUGINS -->
+    <script src="js/custom.js"></script>
+	<script src="js/timeline.min.js"></script>
+	<script>
+		timeline(document.querySelectorAll('.timeline'), {
+			forceVerticalMode: 700,
+			mode: 'horizontal',
+			verticalStartPosition: 'left',
+			visibleItems: 4
+		});
+	</script>
+</body>
+</html>
